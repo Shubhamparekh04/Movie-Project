@@ -1,6 +1,6 @@
-#Movie-Project - Admin Panel
+# Movie Project- Admin Panel (Movie Management)
 
-Cineverse is a **Node.js, Express, MongoDB, and EJS** based full-stack admin panel for managing movies. This panel allows administrators to perform **CRUD (Create, Read, Update, Delete)** operations on movies.
+It is a **Node.js, Express, MongoDB, and EJS** based full-stack admin panel for managing movies. This panel allows administrators to perform **CRUD (Create, Read, Update, Delete)** operations on movies.
 
 ## 🌐 Live Demo
 [Admin Panel](https://movie-project-ten-sepia.vercel.app/adminDash)
@@ -14,13 +14,12 @@ Cineverse is a **Node.js, Express, MongoDB, and EJS** based full-stack admin pan
 - **Read**: View all movies in the database.
 - **Update**: Edit existing movie details.
 - **Delete**: Remove movies along with their images.
-- **Authentication**: Admin login & session management.
 
 ## 🛠️ Tech Stack
 - **Backend**: Node.js, Express.js
 - **Database**: MongoDB (Mongoose ORM)
 - **Templating Engine**: EJS
-- **Middleware**: Multer (for file uploads), Cookie-parser (for authentication)
+- **Middleware**: Multer (for file uploads)
 - **Hosting**: Vercel
 
 ## 🚀 Installation & Setup
@@ -83,5 +82,6 @@ Movie-Project/
 - **Manage Movies**: Add, update, or delete movies in the Admin Panel.
 
 ---
+
 
 
