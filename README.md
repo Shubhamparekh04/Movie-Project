@@ -1,4 +1,4 @@
-# Cineverse - Admin Panel (Movie Management)
+#Movie-Project - Admin Panel
 
 Cineverse is a **Node.js, Express, MongoDB, and EJS** based full-stack admin panel for managing movies. This panel allows administrators to perform **CRUD (Create, Read, Update, Delete)** operations on movies.
 
