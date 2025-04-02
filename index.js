@@ -10,14 +10,13 @@ app.use(express.static(path.join(__dirname, "public"))); // Adjust the folder na
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use("/uploads",express.static(__dirname+"/uploads"))
-
+app.use("/uploads", express.static(__dirname + "/uploads"));
 
 app.use("/", indexRouter);
 
 app.listen(port, (err) => {
   if (!err) {
     db();
-    console.log("Server runs on:\nhttp://localhost:" + port);
+    console.log("Server runs on:\nhttp://localhost:" + port || 3000);
   }
 });
